@@ -1,0 +1,5 @@
+Dope input boxes I want to use: https://scotch.io/tutorials/google-material-design-input-boxes-in-css3
+
+Gradient Generator I built on Repl.it: https://repl.it/@AshtonChristens/GradientGenerator
+
+Gradient Generator uses: https://cdnjs.cloudflare.com/ajax/libs/color-scheme/1.0.1/color-scheme.min.js
