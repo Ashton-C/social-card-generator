@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./MatInput.css";
+import React, { Component } from 'react';
+import './MatInput.css';
 
 export default class MatInput extends Component {
   render() {
@@ -14,6 +14,6 @@ export default class MatInput extends Component {
           </div>
         </form>
       </div>
-    );
+    )
   }
 }
