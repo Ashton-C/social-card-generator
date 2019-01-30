@@ -1,4 +1,10 @@
 .App {
   background-color: #444444;
-  color: #00d873;
+  color: #dddddd;
+}
+
+.Header {
+  position: relative;
+  text-align: center;
+  border-bottom: solid 1px #dddddd;
 }
