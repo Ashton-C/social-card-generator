@@ -39,9 +39,9 @@ export default class GradientGen extends React.Component {
   }
   render() {
     return (
-      <div className="GradientGen">
+      <div className="GradientGen" style={{ background: this.state.gradient }}>
         <div>
-          <p style={{ background: this.state.gradient }}>
+          <p>
             <button onClick={this.getScheme}> Change color! </button>
           </p>
         </div>

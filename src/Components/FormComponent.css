@@ -1,3 +1,9 @@
 .FormComponent {
   text-align: center;
+  border: solid 1px #dddddd;
+  border-radius: 25px;
+  margin: 40px;
+}
+.Pic {
+  position: absolute;
 }

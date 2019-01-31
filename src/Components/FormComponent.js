@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MatInput from "./MatInput";
 import GradientGen from "./GradientGen";
+import Pic from "./Pic";
 import "./FormComponent.css";
 
 export default class FormComponent extends Component {
@@ -8,7 +9,7 @@ export default class FormComponent extends Component {
     return (
       <div className="FormComponent">
         <div className="pic">
-          <p>profilepic component</p>
+          <Pic />
         </div>
         <div className="gradient">
           <GradientGen />
