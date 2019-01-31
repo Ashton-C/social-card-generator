@@ -1,12 +1,12 @@
 .GradientGen {
   width: auto;
   height: 256px;
+  position: relative;
 }
 
 .GradientGen p {
   padding: 20px;
   text-align: center;
-  overflow: hidden;
 }
 
 .GradientGen button {
@@ -16,6 +16,6 @@
   background-color: rgba(0, 0, 0, 0.4);
   border: 0.5px solid #dddddd;
   border-radius: 7px;
-  position: absolute;
-  left: 50%;
+  position: relative;
+  bottom: px;
 }

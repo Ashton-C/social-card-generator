@@ -6,7 +6,7 @@ export default class Pic extends Component {
     return (
       <div className="Pic">
         <img src="null" />
-        <button> Upload Picture! </button>
+        <button className=''> Upload Picture! </button>
       </div>
     );
   }

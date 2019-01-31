@@ -6,7 +6,7 @@ export default class GradientGen extends React.Component {
   constructor() {
     super();
     this.state = {
-      gradient: `linear-gradient(to bottom, rgba(255,255,255, .6), rgba(186,186,186,0)),   linear-gradient(to right, #B78A9D, #e380ff)`,
+      gradient: `linear-gradient(45deg, rgba(186,186,186, .6), rgba(255,255,255,0)),   linear-gradient(to right, #B78A9D, #e380ff)`,
     };
     this.getScheme = this.getScheme.bind(this);
   }
@@ -31,7 +31,7 @@ export default class GradientGen extends React.Component {
     console.log(colors);
     // newDiv.style.setProperty("background-image", `linear-gradient(45deg, rgba(255,255,255, .6), rgba(186,186,186,0)), linear-gradient(to right, #${colors[0]}, #${colors[Math.floor(Math.random()*11)]})`)
     this.setState({
-      gradient: `linear-gradient(to bottom, rgba(255,255,255, .6), rgba(186,186,186,0)),   linear-gradient(to right, #${
+      gradient: `linear-gradient(45deg, rgba(186,186,186, .6), rgba(255,255,255,0)),   linear-gradient(to right, #${
         colors[0]
       }, #${colors[Math.floor(Math.random() * 11)]})`,
     });

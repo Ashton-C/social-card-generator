@@ -2,9 +2,16 @@
   background-color: #444444;
   color: #dddddd;
 }
-
+.filler {
+  min-height: calc(100vh - 120px);
+}
 .Header {
   position: relative;
   text-align: center;
   border-bottom: solid 1px #dddddd;
+}
+.Footer {
+  background-color: #444444;
+  color: #dddddd;
+  text-align: center;
 }
