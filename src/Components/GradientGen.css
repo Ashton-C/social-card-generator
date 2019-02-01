@@ -2,6 +2,7 @@
   width: auto;
   height: 256px;
   position: relative;
+  border-bottom: solid 4px white;
 }
 
 .GradientGen p {

@@ -14,14 +14,14 @@ export default class FormComponent extends Component {
         <div className="gradient">
           <GradientGen />
         </div>
-        <div className="inputs form-group container">
-          <div className="row">
-            <MatInput className="" label="Name" />
-            <MatInput className="mr-auto" label="Email" />
+        <div id="inputs" className="inputs container">
+          <div className="leftins">
+            <MatInput label="Name" />
+            <MatInput id="right" label="Email" />
           </div>
-          <div className="row">
-            <MatInput className="mr-auto" label="Title" />
-            <MatInput className="mr-auto" label="Phone" />
+          <div className="rightins">
+            <MatInput className="s" label="Title" />
+            <MatInput id="right" label="Phone" />
           </div>
         </div>
       </div>

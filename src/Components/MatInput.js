@@ -6,8 +6,7 @@ export default class MatInput extends Component {
     return (
       <div className="MatInput">
         <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+          <div>
             <input
               type="email"
               class="form-control"
