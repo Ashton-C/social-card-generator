@@ -17,11 +17,11 @@ export default class FormComponent extends Component {
         <div id="inputs" className="inputs container">
           <div className="leftins">
             <MatInput label="Name" />
-            <MatInput id="right" label="Email" />
+            <MatInput label="Title" />
           </div>
           <div className="rightins">
-            <MatInput className="s" label="Title" />
-            <MatInput id="right" label="Phone" />
+            <MatInput className="s" label="Email" />
+            <MatInput label="Phone" />
           </div>
         </div>
       </div>

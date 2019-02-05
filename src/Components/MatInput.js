@@ -9,7 +9,7 @@ export default class MatInput extends Component {
           <div>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder={this.props.label}

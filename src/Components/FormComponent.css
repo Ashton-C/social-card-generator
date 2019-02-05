@@ -10,17 +10,25 @@
   border: solid 3px #dddddd;
   border-radius: 25px;
   position: absolute;
-  width: 128px;
-  height: 128px;
+  width: 20%;
+  z-index: 1;
+}
+.Pic:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
 }
 
-.Pic button {
-  position: relative bottom;
+.Pic input {
+  position: absolute;
   font-size: 16px;
   color: #dddddd;
   background-color: rgba(0, 0, 0, 0.4);
   border: 0.5px solid #dddddd;
   border-radius: 7px;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .MatInput {
   width: 100%;
@@ -28,10 +36,12 @@
   padding: 10px;
 }
 .leftins {
-  position: flex;
+  width: 50%;
+  display: flex block;
   float: left;
 }
 .rightins {
-  position: flex;
+  width: 50%;
+  display: flex block;
   float: right;
 }

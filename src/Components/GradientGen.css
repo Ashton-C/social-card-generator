@@ -1,6 +1,6 @@
 .GradientGen {
   width: auto;
-  height: 256px;
+  height: 60vh;
   position: relative;
   border-bottom: solid 4px white;
 }
@@ -12,11 +12,12 @@
 
 .GradientGen button {
   font-size: 16px;
-  display: block;
   color: #dddddd;
   background-color: rgba(0, 0, 0, 0.4);
   border: 0.5px solid #dddddd;
   border-radius: 7px;
-  position: relative;
-  bottom: px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
