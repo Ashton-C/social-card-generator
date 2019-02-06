@@ -12,6 +12,7 @@ export default class Pic extends Component {
   }
   handleSubmit(event) {
     console.log(this.state.imagePreviewUrl);
+    this.props.onPicChange(this.state.imagePreviewUrl);
   }
   _handleImageChange(e) {
     e.preventDefault();
@@ -23,7 +24,7 @@ export default class Pic extends Component {
       this.setState({
         file: file,
         imagePreviewUrl: reader.result
-      });
+      }, this.handleSubmit);
     };
 
     reader.readAsDataURL(file);

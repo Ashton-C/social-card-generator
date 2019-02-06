@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "4.2.1",
     "color-scheme": "1.0.1",
+    "html2canvas": "^1.0.0-alpha.12",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"

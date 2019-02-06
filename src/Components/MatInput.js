@@ -7,11 +7,16 @@ export default class MatInput extends Component {
     this.state = { value: "" };
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit = () => {
+    this.props.onInput(this.state.value, this.props.label);
   }
 
   handleChange = e => {
-    this.setState({ value: e.target.value });
-    this.props.onInput(this.state.value, this.props.label);
+    let input = e.target.value;
+    this.setState({ value: input }, this.handleSubmit);
   };
 
   render() {
