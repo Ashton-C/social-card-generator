@@ -5,6 +5,22 @@ import Pic from "./Pic";
 import "./FormComponent.css";
 
 export default class FormComponent extends Component {
+  constructor() {
+    super();
+    this.handleInput = this.handleInput.bind(this);
+    this.state = {
+      Name: "",
+      Title: "",
+      Email: "",
+      Phone: ""
+    };
+  }
+
+  handleInput = (input, label) => {
+    this.setState({ [label]: [input] });
+    console.log(this.state);
+  };
+
   render() {
     return (
       <div className="FormComponent">
@@ -16,12 +32,12 @@ export default class FormComponent extends Component {
         </div>
         <div id="inputs" className="inputs container">
           <div className="leftins">
-            <MatInput label="Name" />
-            <MatInput label="Title" />
+            <MatInput onInput={this.handleInput} label="Name" />
+            <MatInput onInput={this.handleInput} label="Title" />
           </div>
           <div className="rightins">
-            <MatInput className="s" label="Email" />
-            <MatInput label="Phone" />
+            <MatInput onInput={this.handleInput} label="Email" />
+            <MatInput onInput={this.handleInput} label="Phone" />
           </div>
         </div>
       </div>
